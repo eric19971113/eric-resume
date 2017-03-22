@@ -1,0 +1,407 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	height: 100%;
+	margin: 0;
+	/*text-align: center;*/
+	width: 100%;
+}
+h1{
+	font-size:48px;
+	font-family: Palatino, 'Palatino Linotype', serif;
+}
+h2 {
+	font-size: 32px;
+}
+
+.page1{
+	height: 100vh;
+	margin: 0;
+	width: 100%;
+	background-size: cover;
+
+}
+
+#up{
+	padding: 30px;
+	text-align: left;
+	padding-left: 80px;
+	height: 15%;
+	background-image: url("3D-Abstract-Wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-position: top  ;
+}
+#up span{
+	font-size: 40px;
+	font-family: Palatino, 'Palatino Linotype', sans-serif;
+
+}
+#mid button{
+	font-size: 24px;
+	font-family: Palatino, 'Palatino Linotype', sans-serif;
+	color: white;
+	background-color: black;
+	border: transparent;
+
+}
+#mid button:hover{
+	color: gray;
+	padding-left: 20px;
+}
+
+#mid{
+	padding-top: 15px;
+	padding-left: 80px;
+	height: 8%;
+	width:100%;
+	background-color: black;
+	display: inline-block;
+}
+.opt{
+	height: 100%;
+	width: 10%;
+	display: inline-block;
+	
+	
+}
+#back{
+	height: 77%;
+	width: 100%;
+	
+}
+#down{
+	height: 101%;
+	width:65.6%;
+	background-image: url("IMG_4609.JPG");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	display: inline-block;
+}
+/*#down:hover{
+	height: 102%;
+	width:65.7%;
+}*/
+.ph{
+	height: 101%;
+	width:11.46%;
+	border-left: solid white;
+	display: inline-block;
+}
+#ph1{
+	background-image: url("IMG_4604.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+
+}
+
+.ph:hover{
+	border: transparent;
+}
+#ph2{
+	background-image: url("01b1.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+#ph3{
+	background-image: url("637f5e8aa35a35f30fc1939d6a93cf00.jpg");
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: cover;
+}
+#text{
+	height: 50%;
+	width:60%;
+	/*border: solid ;*/
+	background-color: black;
+	display: inline-block;
+	vertical-align: center;
+	/*background-color: rgba(0,0,0,1);
+	background-image:url(01b1.jpg);
+	background-size:cover;
+	background-position: center;*/
+}
+/*#text h1{
+	color:white;
+}
+#text h2{
+	color:white;
+}
+#text h3{
+	color:white;
+}*/
+#pg:hover{
+	color: gray;
+}
+.page1 h1{
+	font-size: 80px;
+}
+.page1 h3{
+	font-size: 70px;
+	font-family: cursive;
+}
+
+.topic{
+	height: 75px;
+	margin: 0;
+	width: 100%;
+	background: black;
+}
+/*#topi{
+	position: absolute;
+}*/
+
+#eric h1{
+	font-size: 40px;
+	color:white;
+	line-height: 25px;
+}
+#eric{
+	height: 100%;
+	margin: 0;
+	width: 40%;
+	display: inline-block;
+}
+#eric1{
+	height: 100%;
+	margin: 0;
+	width: 40%;
+	display: inline-block;
+}
+
+#eric2{
+	height: 100%;
+	margin: 0;
+	width: 40%;
+	display: inline-block;
+}
+#eric3{
+	height: 100%;
+	margin: 0;
+	width: 40%;
+	display: inline-block;
+}
+
+.tag{
+	height: 60%;
+	margin: 0;
+	width: 15%;
+	text-align:center;
+	line-height: 45px;
+	display: inline-block;	
+	border-right-style: solid;
+	vertical-align: middle;
+	font-size: 20px;
+	font-family:Palatino, 'Palatino Linotype',cursive;
+	color: white;
+}
+#eric button{
+	font-size: 40px;
+	color:white;
+	line-height: 25px;
+	border: transparent;
+	background-color: black;
+	font-family: Palatino, 'Palatino Linotype', serif;;
+	font-weight: bold;
+}
+.tag button{
+	width:180px;
+	height:30px;
+	background-color: black;
+	border: transparent;
+	color: white;
+	font-size: 18px;
+	font-family:Palatino, 'Palatino Linotype',cursive;
+}
+.tag button:hover{
+	color: gray;
+}
+.tag button:active{
+	padding-top: 10px;
+}
+#talents{
+	font-size: 19px;
+
+}
+
+
+/*@media only screen {
+	.pages{
+
+	}
+}*/
+.fixed{
+	height: 75px;
+	margin: 0;
+	width: 100%;
+}
+.pages{
+	height: 100vh;
+	margin: 0;
+	width: 100%;
+	
+}
+.inside1{
+	height: 100vh;
+	margin: 0;
+	width: 30%;
+	border:solid ;
+	border-color: transparent;
+	display: inline-block;
+	vertical-align: top;
+}
+.inside2{
+	height: 100vh;
+	margin: 0;
+	width: 70%;
+	/*border:solid black;*/
+	display: inline-block;
+	/*border-color: transparent;*/
+}
+.pic{
+	height: 30%;
+	margin: 0;
+	width: 100%;
+	/*border:solid gray;*/
+
+	/*border-color: transparent;*/
+
+}
+#adj{
+	height: 20%;
+}
+#intro1{
+	padding-top: 30px;
+	height: 60%;
+}
+.fixed{
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+    padding-top: 0px;
+}
+#abme{
+	background-image: url("4890.JPG");
+	background-repeat: no-repeat;
+	background-position: bottom ;
+	/*padding-top: 30px;*/
+
+}
+#ntu{
+	background-image: url("handsome1.jpg");
+	background-repeat: no-repeat;
+	background-position: top  ;
+	/*padding-right: 50px;*/
+}
+.pic2{
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 60%;
+	margin: 0;
+	width: 100%;
+	border:solid gray;
+	background: rgba(95%,95%,95%,0.8);
+	border-color: transparent;
+	border-radius: 20px;
+}
+.pic3{
+	height: 10%;
+	margin: 0;
+	width: 100%;
+	border:solid gray;
+	border-color: transparent;
+
+}
+.con{
+	height: 100%;
+	margin: 0;
+	width: 50%;
+	border:solid gray;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+	border-color: transparent;
+}
+.con span{
+	text-shadow: 1px 1px white;
+
+}
+
+.inside1 h1{
+	font-size: 60px;
+	font-weight: bolder;
+	display: inline-block;
+	font-family:cursive;
+	padding: 50px;
+	text-shadow: 1px 1px white;
+}
+.pic2 p{
+	font-size: 24px;
+	padding-right: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:justify;
+	line-height: 35px;
+}
+#contact{
+	text-align: center;
+}
+#contact span{
+	/*color: white;*/
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#blank{
+	height: 10%;
+	width:100%;
+}
+#edu2{
+	padding-top: 35px;
+	padding-left: 60px;
+}
+#edu{
+	padding-top: 35px;
+}
+#educate p{
+	font-size: 32px;
+}
+#educate li{
+	font-size: 24px;
+	padding-right: 40px;
+}
+#vol{
+	background-image: url("1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top ;
+}
+#hack{
+	background-image: url("2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#tal h1{
+	text-align: center;
+}
+#talent {
+	padding-top: 150px;
+	height: 90%;
+	margin: 0;
+	width: 100%;
+	line-height: 40px;
+	font-size: 20px;
+	background: rgba(95%,95%,95%,0.7);
+	border-color: transparent;
+	border-radius: 20px;
+
+}
+
+#experienc{
+	line-height: 60px;
+	font-size: 24px;
+}
+#exp{
+	/*padding-top: 20px;*/
+	
+}
