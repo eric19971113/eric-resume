@@ -341,7 +341,7 @@ h2 {
 	padding-right: 60px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align:justify;
-	line-height: 16pt;
+	line-height: 24pt;
 }
 #contact{
 	text-align: center;
@@ -390,7 +390,7 @@ h2 {
 	height: calc(90% - 150px);
 	margin: 0;
 	width: 100%;
-	line-height: 20pt;
+	line-height: 24pt;
 	font-size: 16pt;
 	background: rgba(95%,95%,95%,0.7);
 	border-color: transparent;
