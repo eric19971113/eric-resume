@@ -285,6 +285,7 @@ h2 {
 	background-image: url("FullSizeRender.jpg");
 	background-repeat: no-repeat;
 	background-position: center right ;
+	background-size: cover;
 	/*padding-top: 30px;*/
 
 }
