@@ -103,6 +103,7 @@ h2 {
 	background-image: url("01b1.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
+	background-size: cover;
 }
 #ph3{
 	background-image: url("637f5e8aa35a35f30fc1939d6a93cf00.jpg");
